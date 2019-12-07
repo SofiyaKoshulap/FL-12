@@ -3,6 +3,10 @@
 		padding: 0 0 !Important;
 		margin: 6px auto !Important;
 	}
+	footer, .text-xs-center{
+		padding: 0 0 !Important;
+		margin-bottom: 0;
+	}
 	*:before,*:after{
 		content: " " !Important;
 		border: none  !Important;
