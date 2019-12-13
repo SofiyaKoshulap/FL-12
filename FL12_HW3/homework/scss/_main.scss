@@ -163,7 +163,7 @@ body{
 	margin:auto 0;
 }
 .section_banner_heading{
-	color:#2C2F3C;
+	color:$color_header_title;
 	font-size:30px;
 	font-weight:map-get($font-weights, "bold");
 	margin-bottom:15px;
