@@ -24,18 +24,18 @@ body{
 	height:45px;
 }
     p{
-    font-family:'Hind',sans-serif;
+    font-family:$font_text;
     font-size:25px;
     margin-top:3px;
     margin-left:20px;
     display:flex;
     flex-direction:column;
-    font-weight: map-get($font-weights, "semi-bold");
+    font-weight: map-get($font_weights, "semi-bold");
     line-height:20px;
     span{
     font-size:10px;
     text-align:center;
-    font-weight:map-get($font-weights, "medium"); 
+    font-weight:map-get($font_weights, "medium"); 
 }
 }
 }
@@ -54,7 +54,7 @@ body{
 	margin-top:60px;
 	margin-bottom:20px;
 	font-size:70px;
-	font-weight:map-get($font-weights, "bold");
+	font-weight:map-get($font_weights, "bold");
 	max-width:500px;
 	position:relative;
 	z-index:3;
@@ -70,7 +70,7 @@ body{
 	font-size:16px;
 	white-space: pre-line;
 	line-height:25px;
-	font-family:'Hind',sans-serif;
+	font-family:$font_text;
 }
 @mixin button{
 	background-color:$buttoncolor;
@@ -80,7 +80,7 @@ body{
 	border: 1px solid $buttoncolor;
     border-radius: 2px;
     font-size:16px;
-    font-weight:map-get($font-weights, "bold");
+    font-weight:map-get($font_weights, "bold");
 }
 .header_button{
 	@include button;
@@ -101,7 +101,7 @@ body{
 	margin:45px 0 35px 0;
 	text-align:center;
 	font-size:42px;
-	font-weight:map-get($font-weights, "semi-bold");
+	font-weight:map-get($font_weights, "semi-bold");
 	color:$color_header_title;
 	position:relative;
 	z-index:3;
@@ -143,7 +143,7 @@ body{
 .section_card_text{
 	margin-bottom:30px;
 	text-align:justify;
-	font-family:'Hind',sans-serif;
+	font-family:$font_text;
 }
 .section_link{
 	@include link($color:$color_text,$font-size:16px);
@@ -165,7 +165,7 @@ body{
 .section_banner_heading{
 	color:$color_header_title;
 	font-size:30px;
-	font-weight:map-get($font-weights, "bold");
+	font-weight:map-get($font_weights, "bold");
 	margin-bottom:15px;
 	position:relative;
 	z-index:3;
@@ -177,8 +177,10 @@ body{
 }
 .section_banner_text{
 	@extend .section_link;
+	font-family:$font_text;
 }
 .footer{
+	font-family:$font_text;
 	background:$footerBackgroun;
 	margin-top:-72px;
 	z-index:1;

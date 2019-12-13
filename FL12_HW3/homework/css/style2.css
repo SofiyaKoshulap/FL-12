@@ -23,7 +23,7 @@ body {
     width: 45px;
     height: 45px; }
   .landing-logo p {
-    font-family: 'Hind',sans-serif;
+    font-family: "Fresca", sans-serif;
     font-size: 25px;
     margin-top: 3px;
     margin-left: 20px;
@@ -62,7 +62,7 @@ body {
   font-size: 16px;
   white-space: pre-line;
   line-height: 25px;
-  font-family: 'Hind',sans-serif; }
+  font-family: "Fresca", sans-serif; }
 
 .header_button {
   background-color: #E3AC00;
@@ -130,7 +130,7 @@ body {
 .section_card_text {
   margin-bottom: 30px;
   text-align: justify;
-  font-family: 'Hind',sans-serif; }
+  font-family: "Fresca", sans-serif; }
 
 .section_link, .section_banner_text {
   color: #CCCACD;
@@ -174,7 +174,11 @@ body {
     left: 121px;
     width: 65px; }
 
+.section_banner_text {
+  font-family: "Fresca", sans-serif; }
+
 .footer {
+  font-family: "Fresca", sans-serif;
   background: #3B3F50;
   margin-top: -72px;
   z-index: 1;
