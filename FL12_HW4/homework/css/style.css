@@ -1,0 +1,134 @@
+*{
+	margin: 0 0;
+	padding: 0 0;
+}
+.opening{
+	height: 100vh;
+}
+.header-wrap{
+	padding: 35px 0;
+	display: flex;
+	justify-content: space-around;
+}
+.text-logo{
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 600;
+	color:#000;
+}
+.nav-link{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	color:#777;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.nav-link:not(:last-child){
+	margin-right: 45px;
+}
+.nav-link:hover{
+	color: #bfba55;
+}
+.intro{
+	background: url(../img/home-bg.jpg) center no-repeat;
+	background-size: cover;
+	height: calc(100vh - 85px);
+}
+.intro{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.intro-title{
+	font-size: 70px;
+	color: #FFFFFF;
+}
+.intro-subtitle{
+	margin: 30px 0 50px 0;
+	color: #bfba55;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+.intro_button{
+	height: 45px;
+	padding: 0 25px;
+	border: none;
+	border-radius: 45px;
+	background: #FFFFFF;
+	font-size: 11px;
+    color:#777;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.main-content{
+	margin: 115px auto;
+	width: 950px;
+}
+.card-img{
+	width: 950px;
+	height: 635px;
+}
+.card-header{
+	margin: 35px 0 20px 0;
+	color: #000;
+}
+.autor{
+	height: 45px;
+	width: 45px;
+	border-radius: 90px;
+}
+.card-about{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.about-text{
+	margin: 0 10px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: lighter;
+}
+.card-text{
+	margin: 25px 0 35px 0;
+	font-size: 18px;
+	line-height: 25px;
+	color:#777;
+}
+.card_button{
+	height: 45px;
+	padding: 0 25px;
+	border: solid 1px #777 ;
+	border-radius: 45px;
+	background: #FFFFFF;
+	font-size: 14px;
+    color:#777;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+hr{
+	margin: 65px 0 85px 0;
+	color: #777;
+}
+.footer-wrap{
+	color: #FFF;
+	background: #000;
+	display: flex;
+	justify-content: space-around;
+	padding: 90px 0 80px 0;
+}
+.footer-content{
+	width: 430px;
+}
+.footer-content p{
+	color: #777;
+	margin-top: 15px;
+	line-height: 25px;
+}
+.right{
+	color: #777;
+	padding-top: 25px;
+}
