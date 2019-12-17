@@ -34,6 +34,8 @@
 .intro{
 	background: url(../img/home-bg.jpg) center no-repeat;
 	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: rgba(0,0,0,0.7);
 	height: calc(100vh - 85px);
 }
 .intro{
