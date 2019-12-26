@@ -66,6 +66,3 @@ Possible prize on curent attempt: ${prize}$ `);
 		}
 	}	
 }
-
-
-
